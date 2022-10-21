@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    display: grid;
+    grid-template-columns: 80px auto;
+    min-height: 100vh;
+
+}
+.home_navbar{
+    border-right: 1px solid black;
+    height: 100%;
+}

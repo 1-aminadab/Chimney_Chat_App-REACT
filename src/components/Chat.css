@@ -1,0 +1,13 @@
+.chat{
+     padding: 10px 0 10px 0;
+     background-color: black;
+}
+
+
+.chat_box{
+    height: 100%;
+    background:#23242a ;
+    border-right: 1px solid black;
+    border-radius: 10px;
+   
+}
