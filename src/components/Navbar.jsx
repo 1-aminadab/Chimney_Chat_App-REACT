@@ -11,7 +11,7 @@ import RoofingIcon from '@mui/icons-material/Roofing';
 
 //imported images
 
-import Profile from '../images/aman_with_beard.jpg'
+import Profile from '../images/profilepic.jpg'
 function Navbar() {
   return (
     <div className='navbar'>

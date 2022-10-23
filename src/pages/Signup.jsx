@@ -9,17 +9,22 @@ function Signup() {
             <div className="inputBox">
                 <input type="text" required = "reaquired" name="" id="" />
                 <span>Username</span>
-                <i></i>
+                <hr></hr>
+            </div>
+            <div className="inputBox">
+                <input type="email" required = "reaquired" name="" id="" />
+                <span>Email</span>
+                <hr></hr>
             </div>
             <div className="inputBox">
                 <input type="password" required = "reaquired" name="" id="" />
                 <span>Password</span>
-                <i></i>
+                <hr></hr>
             </div>
             <div className="inputBox">
                 <input type="password" required = "reaquired" name="" id="" />
                 <span>Confirm Password</span>
-                <i></i>
+                <hr></hr>
             </div>
             <div className="links">
                 <a href="#">have an account</a>

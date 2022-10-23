@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oleo+Script+Swash+Caps&family=Poppins:wght@200&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;1,300&family=Ubuntu:ital,wght@1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
 }
 .home{
     display: grid;
     grid-template-columns: 80px auto;
     min-height: 100vh;
+   
 
 }
 .home_navbar{

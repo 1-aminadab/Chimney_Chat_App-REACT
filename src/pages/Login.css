@@ -1,6 +1,8 @@
 :root{
-    --mainColor: hsl(263, 100%, 64%);
+    --mainColor: hsl(249, 100%, 64%);
     /* --mainColor: hsl(184, 100%, 64%) */
+    --mainBackgroundColor: hsl(0, 9%, 15%);
+    --red: hsl(0,100,50%);
 }
 
 
@@ -10,40 +12,40 @@
     box-sizing: border-box;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.signup{
-    background-color: #23242a;
+.login{
+    background-color: var(--mainBackgroundColor);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.signup_box{
+.login_box{
     position: relative;
     width: 380px;
-    height: 420px;
+    height: 400px;
     background-color: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
 }
-.signup_box::before{
+.login_box::before{
     content: "";
     position: absolute;
     top: -50%;
     left: -50%;
     width: 380px;
-    height: 420px;
+    height: 600px;
     background: linear-gradient(0deg, transparent,
     var(--mainColor),var(--mainColor));
     animation: animate 6s linear infinite;
     transform-origin: bottom right;
 }
-.signup_box::after{
+.login_box::after{
     content: "";
     position: absolute;
     top: -50%;
     left: -50%;
     width: 380px;
-    height: 420px;
+    height: 600px;
     background: linear-gradient(0deg, transparent,
     var(--mainColor),var(--mainColor));
     animation: animate 6s linear infinite;
@@ -67,7 +69,7 @@
     z-index: 10;
     display: flex;
     flex-direction: column;
-    padding: 50px 40px;
+    padding: 20px 40px;
 
 }
 
@@ -117,7 +119,7 @@
     font-size: 0.75em;
     transition: 0.5s;
 } 
-.inputBox i{
+.inputBox hr{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -128,8 +130,8 @@
     transition: 0.5s;
     pointer-events: none;
 }
-.inputBox input:valid ~ i,
-.inputBox input:focus ~ i{
+.inputBox input:valid ~ hr,
+.inputBox input:focus ~ hr{
     height: 44px;
 }
 

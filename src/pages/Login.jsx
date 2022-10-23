@@ -9,12 +9,12 @@ function Login() {
                 <div className="inputBox">
                     <input type="text" required = "reaquired" name="" id="" />
                     <span>Username</span>
-                    <i></i>
+                    <hr></hr>
                 </div>
                 <div className="inputBox">
                     <input type="password" required = "reaquired" name="" id="" />
                     <span>Password</span>
-                    <i></i>
+                    <hr></hr>
                 </div>
                 <div className="links">
                     <a href="#">Forgot Password?</a>
