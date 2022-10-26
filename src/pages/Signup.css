@@ -15,7 +15,7 @@
     background-color: #23242a;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .signup_box{
@@ -26,13 +26,31 @@
     border-radius: 8px;
     overflow: hidden;
 }
+.signup .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60vh;
+    width: 50vw;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.signup .description h1{
+    color: var(--mainColor);
+    font-size: 7rem;
+}
+.signup .description p{
+    width: 60%;
+    color: gray;
+}
 .signup_box::before{
     content: "";
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 420px;
+    width: inherit;
+    height: inherit;
     background: linear-gradient(0deg, transparent,
     var(--mainColor),var(--mainColor));
     animation: animate 6s linear infinite;
@@ -43,8 +61,8 @@
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 420px;
+    width: inherit;
+    height: inherit;
     background: linear-gradient(0deg, transparent,
     var(--mainColor),var(--mainColor));
     animation: animate 6s linear infinite;

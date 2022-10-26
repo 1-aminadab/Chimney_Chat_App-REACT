@@ -6,7 +6,7 @@
      background-color: var(--homeBackgroundColor);
      color: white;
      display: grid;
-     grid-template-columns: 300px  700px auto;
+     grid-template-columns: 300px  800px auto;
      column-gap: 4px;
      
 }
@@ -340,7 +340,7 @@ i{
 .friendprofile{
     background-color:var(--primaryColor);
     border-radius: 8px;
-    margin: 8px 0px 10px 5px;
+    margin: 8px 6px 10px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;

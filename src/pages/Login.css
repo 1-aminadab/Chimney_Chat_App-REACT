@@ -32,8 +32,8 @@
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 600px;
+    width: inherit;
+    height: inherit;
     background: linear-gradient(0deg, transparent,
     var(--mainColor),var(--mainColor));
     animation: animate 6s linear infinite;
@@ -44,8 +44,8 @@
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 600px;
+    width: inherit;
+    height: inherit;
     background: linear-gradient(0deg, transparent,
     var(--mainColor),var(--mainColor));
     animation: animate 6s linear infinite;

@@ -12,7 +12,10 @@ import RoofingIcon from '@mui/icons-material/Roofing';
 //imported images
 
 import Profile from '../images/profilepic.jpg'
+
+
 function Navbar() {
+  
   return (
     <div className='navbar'>
       <div className="navbar_main">
@@ -25,13 +28,13 @@ function Navbar() {
           <PersonIcon />
         </div>
         <div className="catagory_icons">
-          <GroupsIcon />
+          <GroupsIcon style={{color:'white'}} />
         </div>
         <div className="catagory_icons">
-          <CampaignIcon />
+          <CampaignIcon style={{color:'white'}}/>
         </div>
         <div className="catagory_icons">
-          <BookmarksIcon />
+          <BookmarksIcon style={{color:'white'}}/>
         </div>
       </div>
       <div className="navbar_account-profile">

@@ -16,11 +16,10 @@ align-items: flex-end;
     width: fit-content;
     max-width: 50%;
     display: flex;
-    
     font-size: 21px;
     gap: 5px;
   
-    background-color: rgb(39, 27, 27);
+    background-color: var(--messageInColor);
     padding: 10px;
     border-radius: 20px;
     border-bottom-left-radius: 0px;
@@ -36,6 +35,17 @@ align-items: flex-end;
     width: 20px;
     background-color: inherit;
     clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+.message-in .message .time-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: fit-content;
+}
+.message-in .message .time-options h6{
+  font-size: 12px;
+  color: rgb(192, 191, 191);
 }
 .message-in .image{
     width: 40px;

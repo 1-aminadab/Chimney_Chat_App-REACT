@@ -3,26 +3,34 @@ import './Signup.css'
 function Signup() {
   return (
     <div className='signup'>
+        <div className="description">
+            <h1>Chimney</h1>
+            <p>Lorem ipsum dolor sit amet 
+                consectetur, adipisicing elit.
+                 Dolorum voluptate ipsam, 
+                 repudiandae vel doloribus provident
+                 reiciendis maxime non a id.</p>
+        </div>
     <div className="signup_box">
         <form className="form">
             <h2>Sign up</h2>
             <div className="inputBox">
-                <input type="text" required = "reaquired" name="" id="" />
+                <input type="text" required = "required" name="" id="" />
                 <span>Username</span>
                 <hr></hr>
             </div>
             <div className="inputBox">
-                <input type="email" required = "reaquired" name="" id="" />
+                <input type="email" required = "required" name="" id="" />
                 <span>Email</span>
                 <hr></hr>
             </div>
             <div className="inputBox">
-                <input type="password" required = "reaquired" name="" id="" />
+                <input type="password" required = "required" name="" id="" />
                 <span>Password</span>
                 <hr></hr>
             </div>
             <div className="inputBox">
-                <input type="password" required = "reaquired" name="" id="" />
+                <input type="password" required = "required" name="" id="" />
                 <span>Confirm Password</span>
                 <hr></hr>
             </div>
