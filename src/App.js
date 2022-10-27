@@ -1,17 +1,25 @@
 import React from 'react'
+
+import './App.css'
+
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Home from './pages/Home'
 
-import './App.css'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+// import { AuthProvider } from './context/AuthContext'
+
 const app = () => {
   return (
-    <div className="app">
+    <Router>
+       <div className="app">
+        
            {/* <Login /> */}
-         {/* <Signup />  */}
-        <Home />
-    </div>
-   
+         <Signup /> 
+        {/* <Home /> */}
+        </div>
+    </Router>
+       
   )
 }
 
