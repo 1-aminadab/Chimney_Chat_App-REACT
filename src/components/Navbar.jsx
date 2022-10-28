@@ -12,7 +12,7 @@ import RoofingIcon from '@mui/icons-material/Roofing';
 //imported images
 
 import Profile from '../images/profilepic.jpg'
-
+import app from "../firebase"
 
 function Navbar() {
   
@@ -42,7 +42,7 @@ function Navbar() {
             <img src={Profile} alt="" />
          </div>
          <div className="logout_button">
-         <LogoutIcon />
+         <LogoutIcon onClick ={()=> app.auth().signOut()}/>
          </div>
       </div>
       </div>

@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 //* Components
 
 // import Chat from '../components/Chat'
@@ -14,6 +12,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Chat from '../components/Chat'
 import './Home.css'
+
 
 function Home() {
   return (
