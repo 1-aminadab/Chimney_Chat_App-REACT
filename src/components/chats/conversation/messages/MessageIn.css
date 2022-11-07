@@ -28,7 +28,7 @@ align-items: flex-end;
 .message-in .message::before{
     content: "";
     position: absolute;
-    top: 90.5%;
+    top: 86%;
     border-radius: 2px;
     left: -2%;
     height: 20px;

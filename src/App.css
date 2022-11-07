@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oleo+Script+Swash+Caps&family=Poppins:wght@200&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;1,300&family=Ubuntu:ital,wght@1,300&display=swap');
 :root{
 
-    --primaryColor:hsl(180, 11%, 60%);
-    --mainColor: hsl(199, 97%, 42%);
-    --mainBackgroundColor: hsl(284, 100%, 5%);
-    --homeBackgroundColor:rgb(243, 239, 239);
+    --primaryColor:hsl(172, 32%, 23%);
+    --mainColor: hsl(197, 100%, 64%);
+    --mainBackgroundColor: hsl(283, 100%, 3%);
+    --homeBackgroundColor:rgb(0, 0, 0);
     
-    --messageInColor:rgb(124, 3, 148);
+    --signupBackgroundColor:hsl(230, 100%, 99%);
+    --formBackgroundColor:hsl(0, 1%, 70%);
+    
+    --messageInColor:rgb(49, 148, 3);
     --messageOutColor:rgb(0, 177, 177);
 }
 .app{

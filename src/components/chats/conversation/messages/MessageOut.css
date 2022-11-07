@@ -24,7 +24,7 @@
   .message-out .message::before{
     content: "";
     position: absolute;
-     top: 83%;
+     top: 80%;
     left: 96.5%;
     border-radius: 2px;
     background-color: inherit;

@@ -153,7 +153,7 @@ i{
     width: 100%;
     border-radius: 10px;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
    
     
 }
@@ -305,13 +305,11 @@ i{
     top: 90%;
     height: 55px;
     display: flex;
-    align-items: flex-end;
-    background-color: rgba(255, 255, 255, 0.692);
+    align-items: center;
+    background-color: rgb(255, 255, 255);
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 2px solid var(--mainColor);
-    
-    border-radius: 40px;
+    border-radius: 7px;
 }
 .chatinput input{
     display: flex;
